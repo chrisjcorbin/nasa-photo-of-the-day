@@ -25,7 +25,7 @@ function NeObjectList() {
 
     return (
         <StyledNeObjectList>
-           {neObject.filter(body => body.is_sentry_object === true).map(filteredBody => {
+           {neObject.filter(body => body.is_sentry_object === false).map(filteredBody => {
                return (
                    <NeObjectCard
                    key={filteredBody.id}

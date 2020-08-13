@@ -8,6 +8,7 @@ border: 1px solid rebeccapurple;
 width: 40%;
 align-items: center;
 align-content: center;
+margin: 2% 0;
 `
 
 
